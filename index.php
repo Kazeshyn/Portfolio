@@ -17,22 +17,26 @@
     <nav>
         <a href="./index.php" class="logoheaderlink"><img src="./images/logo-header.png" alt="Logo, retour à l'accueil (page actuelle)." class="logoheader"></a>
         <ul>
-        <li><a href="">Portfolio</a><a href="" class="endflexgap">Contact</a></li>
+            <li><a href="">Portfolio</a><a href="" class="endflexgap">Contact</a></li>
         </ul>
     </nav>
     <main>
         <section class="first-section">
-            <img src="./images/photo-accueil-1.jpg" alt="" class="accueilimg">
+            <img src="./images/acceuil.jpg" alt="" class="accueilimg">
             <h1><img src="./images/h1img.png" alt="" class="h1img"></h1>
+            <a href="#s2"><Div style="width: 2em; height: 2em; background-color: transparent; z-index: 80; 
+            bottom: 25px; position: absolute; border-width: 0 0.25em 0.25em 0; border-style: solid; border-color: black; animation: scrolldown 1.2s ease-in-out infinite 0.15s;" class="scroll"></Div></a>
+            <a href="#s2"><Div style="width: 2em; height: 2em; background-color: transparent; z-index: 80; 
+            bottom: 40px; position: absolute; border-width: 0 0.25em 0.25em 0; border-style: solid; border-color: black; animation: scrolldown 1.2s ease-in-out infinite;"class="scroll"></Div></a>
         </section>
-        <section class="second-section">
+        <section class="second-section" id="s2">
             <div>
                 <img src="./images/apropos.png" alt="" class="apropos">
                 <img src="./images/imgapropos.jpg" alt="" class="imgapropos">
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, veniam quod repudiandae ipsum quidem illum perferendis magnam in quo ratione. Dolor accusantium corporis ipsa aperiam laboriosam, beatae sint amet laudantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore error perspiciatis voluptas neque molestiae deleniti delectus nihil cum quam eaque, minus dolores, exercitationem at sed praesentium mollitia molestias repellendus tempora!</p>
         </section>
-        <section class="third-section">
+        <section class="third-section" id="s3">
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, veniam quod repudiandae ipsum quidem illum perferendis magnam in quo ratione. Dolor accusantium corporis ipsa aperiam laboriosam, beatae sint amet laudantium!
             </p>
@@ -44,22 +48,22 @@
         <section class="fourth-section">
             <img src="./images/portfoliotext.png" alt="Portfolio" class="imageportfolio">
             <div class="gridportfolio">
-            <!-- slider -->
-            <div id="slider">
-                <figure>
-                    <img src="./images/sliderfill.png" alt>
-                    <img src="./images/sliderfill.png" alt>
-                    <img src="./images/sliderfill.png" alt>
-                    <img src="./images/sliderfill.png" alt>
-                    <img src="./images/sliderfill.png" alt>
-                </figure>
-                <!-- fin slider -->
+                <!-- slider -->
+                <div id="slider">
+                    <figure>
+                        <img src="./images/sliderfill.png" alt>
+                        <img src="./images/sliderfill.png" alt>
+                        <img src="./images/sliderfill.png" alt>
+                        <img src="./images/sliderfill.png" alt>
+                        <img src="./images/sliderfill.png" alt>
+                    </figure>
+                    <!-- fin slider -->
                 </div>
                 <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non doloribus impedit cupiditate fuga ut sint animi commodi ducimus quam, nostrum odit ea labore, adipisci dignissimos iste quia dolorem libero perspiciatis!</p>
-                <div class="divbutton">
-                    <a href="" class="textbutton">Portfolio > </a>
-                </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non doloribus impedit cupiditate fuga ut sint animi commodi ducimus quam, nostrum odit ea labore, adipisci dignissimos iste quia dolorem libero perspiciatis!</p>
+                    <div class="divbutton">
+                        <a href="" class="textbutton">Portfolio > </a>
+                    </div>
                 </div>
             </div>
         </section>
