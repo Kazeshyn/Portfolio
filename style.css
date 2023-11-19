@@ -4,9 +4,42 @@ body {
 nav {
     background-color: black;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* gap: 1.5vw; */
+}
+nav a {
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+}
+li {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+}
+footer {
+    background-color: black;
+    display: flex;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+footer a {
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    color: white;
 }
 section {
-    height: 100vh;
+    height: fit-content;
+    /* margin-top: 5%; */
+    margin-bottom: 15%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
@@ -26,160 +59,176 @@ section {
 p {
         font-family: 'Kanit', sans-serif;
 }
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    section {
-        height: 43vh;
-    }
-    nav {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        gap: 10px;
-    }
-    nav a {
-        text-decoration: none;
-        font-family: 'Kanit', sans-serif;
-        color: white;
-    }
-    .endflexgap {
-        margin-bottom: 10px;
-    }
-    /* images */
-    .logoheader {
-        width: 60%;
-        margin: auto;
-        padding-top: 3%;
-    }
-    .h1img {
-        display: flex;
-        width: 85%;
-        margin: auto;
-    }
-    .accueilimg {
-        height: 100%;
-    }
-    .apropos {
-        width: 40%;
-    }
-    .imgapropos {
-        width: 40%;
-        margin-bottom: 23%;
-    }
-    p {
-        font-size: 0.4rem;
-        text-align: justify;
-        margin-right: 4%;
+iframe {
+    margin-left: 10%;
+    height: 40%; /* Modifiez la hauteur selon vos besoins
+    }*/
+}
 
-    }
-    }
-    
-    /* Smartphones (landscape) ----------- */
-    @media only screen and (min-width : 321px) {
-        section {
-            height: 100vh;
-        }
-    }
-    
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-    /* Styles */
-    }
-    
-    /* iPads (portrait and landscape) ----------- */
-    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    /* Styles */
-    }
-    
-    /* iPads (landscape) ----------- */
-    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-    /* Styles */
-    }
-    
-    /* iPads (portrait) ----------- */
-    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-    /* Styles */
-    }
-    /**********
-    iPad 3
-    **********/
-    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
-    /* Styles */
-    }
-    
-    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
-    /* Styles */
-    }
+section.fourth-section {
+    display: block;
+}
+
+.endflexgap {
+    margin-bottom: 20px;
+}
+/* images */
+.logoheader {
+    width: 60%;
+    margin: auto;
+    padding-top: 3%;
+}
+.logofooter {
+    width: 60%;
+}
+.h1img {
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
+.accueilimg {
+    height: 100%;
+}
+.apropos {
+    width: 40%;
+}
+.imgapropos {
+    width: 40%;
+    margin-bottom: 23%;
+}
+.cvimage {
+    width: 60%;
+    margin-left: 20%;
+}
+p {
+    font-size: 1.7vw;
+    text-align: justify;
+    margin-right: 4%;
+    margin-left: 4%;
+
+}
+.third-section p {
+    margin-top: 32%;
+}
+.imageportfolio {
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+/* slider */
+div#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    text-align: left;
+}
+div#slider figure img {
+    width: 20%;
+    height: auto;
+    float: left;
+}
+div#slider {
+    width: 75%;
+    max-width: 1000px;
+    overflow: hidden
+
+}
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+  }
+  div#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    left: 0;
+    text-align: left;
+    animation: 30s slidy infinite;
+  }
+  /* Fin slider */
+  div.gridportfolio {
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    place-items: center;
+  }
+
+  .divbutton {
+    width: 40%; /* Ajustez la largeur selon vos besoins */
+    border: black 3px solid;
+    border-radius: 12px;
+    margin-left: 3%;
+}
+
+.textbutton {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.4vw; /* Ajustez la taille de la police selon vos besoins */
+}
+  .gapfooter {
+    margin-top: 10px;
+  }
+
     /* Desktops and laptops ----------- */
     @media only screen and (min-width : 1224px) {
-    /* Styles */
+        nav {
+            background-color: black;
+            display: flex;
+            flex-direction: row;
+            gap: 50vw;
+            
+        }
+        .endflexgap {
+            margin-bottom: 0;
+        }
+        .logoheader {
+        width: 60%;
+        /* margin: auto; */
+        margin-right: 50%;
+        padding-top: 3%;
+        padding-left: 2vw;
+}
+.logofooter {
+    width: 60%;
+}
+li {
+    display: flex;
+    flex-direction: row;
+    padding-left: 4vw;
+    padding-right: 5vw;
+    gap: 5vw;
+    margin-left: 10%;
+}
+section {
+    height: 100vh;
+}
+iframe {
+    margin-left: 10%;
+    height: 40vh; /* Modifiez la hauteur selon vos besoins
+    }*/
+}
     }
-    
-    /* Large screens ----------- */
-    @media only screen and (min-width : 1824px) {
-    /* Styles */
-    }
-    
-    /* iPhone 4 ----------- */
-    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
-    /* Styles */
-    }
-    
-    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
-    /* Styles */
-    }
-    
-    /* iPhone 5 ----------- */
-    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-    /* Styles */
-    }
-    
-    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-    /* Styles */
-    }
-    
-    /* iPhone 6 ----------- */
-    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-    /* Styles */
-    }
-    
-    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-    /* Styles */
-    }
-    
-    /* iPhone 6+ ----------- */
-    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-    /* Styles */
-    }
-    
-    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-    /* Styles */
-    }
-    
-    /* Samsung Galaxy S3 ----------- */
-    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-    /* Styles */
-    }
-    
-    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-    /* Styles */
-    }
-    
-    /* Samsung Galaxy S4 ----------- */
-    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
-    /* Styles */
-    }
-    
-    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
-    /* Styles */
-    }
-    
-    /* Samsung Galaxy S5 ----------- */
-    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
-    /* Styles */
-    }
-    
-    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
-    /* Styles */
+    @media only screen and (min-width : 690px) and (max-width : 1224px) {
+        iframe {
+            margin-left: 10%;
+            height: 30vh; /* Modifiez la hauteur selon vos besoins
+            }*/
+        }
     }
