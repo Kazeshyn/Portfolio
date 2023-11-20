@@ -10,7 +10,7 @@ body {
 	display: flex;
 	flex-direction: column;
 }
-div.scroll {
+.scroll {
     display: none;
 }
 
@@ -309,6 +309,7 @@ div.gridportfolio {
 		height: 92vh;
 	}
     .scroll{
+		display: block;
         left: 50%;
         transform: translateY(0%) rotate(45deg);
         

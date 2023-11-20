@@ -24,10 +24,10 @@
         <section class="first-section">
             <img src="./images/acceuil.jpg" alt="" class="accueilimg">
             <h1><img src="./images/h1img.png" alt="" class="h1img"></h1>
-            <a href="#s2"><Div style="width: 2em; height: 2em; background-color: transparent; z-index: 80; 
-            bottom: 25px; position: absolute; border-width: 0 0.25em 0.25em 0; border-style: solid; border-color: black; animation: scrolldown 1.2s ease-in-out infinite 0.15s;" class="scroll"></Div></a>
-            <a href="#s2"><Div style="width: 2em; height: 2em; background-color: transparent; z-index: 80; 
-            bottom: 40px; position: absolute; border-width: 0 0.25em 0.25em 0; border-style: solid; border-color: black; animation: scrolldown 1.2s ease-in-out infinite;"class="scroll"></Div></a>
+            <a href="#s2"><div style="width: 2em; height: 2em; background-color: transparent; z-index: 80; 
+            bottom: 25px; position: absolute; border-width: 0 0.25em 0.25em 0; border-style: solid; border-color: black; animation: scrolldown 1.2s ease-in-out infinite 0.15s;" class="scroll"></div></a>
+            <a href="#s2"><div style="width: 2em; height: 2em; background-color: transparent; z-index: 80; 
+            bottom: 40px; position: absolute; border-width: 0 0.25em 0.25em 0; border-style: solid; border-color: black; animation: scrolldown 1.2s ease-in-out infinite;"class="scroll"></div></a>
         </section>
         <section class="second-section" id="s2">
             <div>
