@@ -235,8 +235,8 @@ div.gridportfolio {
 
 .divbutton {
 	width: 40%;     /* Ajustez la largeur selon vos besoins */
-	border: black 3px solid;
-	border-radius: 12px;
+	border: black 0.3vw solid;
+	border-radius: 16px;
 	margin-left: 7.5%;
 }
 

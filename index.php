@@ -19,7 +19,7 @@
         <ul>
             <li>
             <a href="./portfolio-index.php">Portfolio</a>
-            <a href="" class="endflexgap">Contact</a>
+            <a href="./contact.php" class="endflexgap">Contact</a>
             </li>
         </ul>
     </nav>
@@ -74,7 +74,7 @@
     <footer>
         <a href="" class="gapfooter">Plan du site</a>
         <a href="">Mentions légales</a>
-        <a href="">Contact</a>
+        <a href="./contact.php">Contact</a>
         <a href="./index.php" class="logoheaderlink"><img src="./images/logo-header.png" alt="Logo, retour à l'accueil (page actuelle)." class="logofooter"></a>
     </footer>
 </body>
