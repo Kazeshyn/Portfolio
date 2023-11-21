@@ -20,9 +20,7 @@ nav {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	text-align: center;     /* gap: 1.5vw; */
-
-	/* height: 5em; */
+	text-align: center;
 }
 
 nav a {

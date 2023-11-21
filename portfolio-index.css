@@ -71,6 +71,7 @@ section {
     grid-column-gap: 5%;
     grid-row-gap: 5%;
     margin-bottom: 50%;
+	box-sizing: border-box;
 }
 a {
     text-decoration: none;
@@ -141,6 +142,7 @@ div {
         padding: 5%;
         padding-top: 2%;
 		height: 60vh;
+		width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
