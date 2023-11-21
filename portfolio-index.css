@@ -1,0 +1,159 @@
+html {
+	scroll-behavior: smooth;
+}
+
+html, body {
+	margin: 0;
+	height: 100%;
+}
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+nav {
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;     /* gap: 1.5vw; */
+
+	/* height: 5em; */
+}
+
+nav a {
+	text-decoration: none;
+	font-family: 'Kanit', sans-serif;
+	color: white;
+}
+
+li {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5vw;
+}
+
+ul {
+	padding: 0;
+}
+
+img {
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+footer {
+	background-color: black;
+	display: flex;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	gap: 10px;
+}
+
+footer a {
+	text-decoration: none;
+	font-family: 'Kanit', sans-serif;
+	color: white;
+}
+
+section {
+    padding: 5%;
+	height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 5%;
+    grid-row-gap: 5%;
+    margin-bottom: 50%;
+}
+a {
+    text-decoration: none;
+}
+div {
+    display: flex;
+    background-color: black;
+    font-family: 'Kanit', sans-serif;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5em;
+}
+/* images */
+.logoheader {
+	width: 60%;
+	margin: auto;
+	padding-top: 3%;
+}
+
+.logofooter {
+	width: 60%;
+}
+.endflexgap {
+	margin-bottom: 20px;
+}
+.gapfooter {
+	margin-top: 10px;
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width:1224px) {
+	nav {
+		background-color: black;
+		display: flex;
+		flex-direction: row;
+		gap: 50vw;
+	}
+
+	.endflexgap {
+		margin-bottom: 0;
+	}
+
+	.logoheader {
+		width: 60%;         /* margin: auto; */
+		margin-right: 50%;
+		padding-top: 3%;
+		padding-left: 2vw;
+	}
+
+	.logofooter {
+		width: 60%;
+	}
+
+	li {
+		display: flex;
+		flex-direction: row;
+		padding-left: 4vw;
+		padding-right: 5vw;
+		gap: 5vw;
+		margin-left: 10%;
+	}
+
+	section {
+        padding: 5%;
+        padding-top: 2%;
+		height: 60vh;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 2%;
+        grid-row-gap: 6%;
+        margin-bottom: 0;
+
+	}
+
+    img {
+        display: flex;
+        width: 30%;
+        margin: auto;
+    }
+
+}

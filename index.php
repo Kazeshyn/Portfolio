@@ -17,7 +17,10 @@
     <nav>
         <a href="./index.php" class="logoheaderlink"><img src="./images/logo-header.png" alt="Logo, retour à l'accueil (page actuelle)." class="logoheader"></a>
         <ul>
-            <li><a href="">Portfolio</a><a href="" class="endflexgap">Contact</a></li>
+            <li>
+            <a href="./portfolio-index.php">Portfolio</a>
+            <a href="" class="endflexgap">Contact</a>
+            </li>
         </ul>
     </nav>
     <main>
