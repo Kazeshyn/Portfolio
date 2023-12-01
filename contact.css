@@ -34,6 +34,7 @@ li {
 ul {
 	padding: 0;
 }
+
 footer {
 	background-color: black;
 	display: flex;
@@ -63,6 +64,7 @@ section {
 	width: 60%;
 	margin: auto;
 	padding-top: 3%;
+	margin-bottom: 2%;
 }
 
 .logofooter {
@@ -82,6 +84,8 @@ section {
 		display: flex;
 		flex-direction: row;
 		gap: 50vw;
+		height: 67.6px;
+		align-items: center;
 	}
 
 	.endflexgap {
@@ -90,15 +94,21 @@ section {
 
 	.logoheader {
 		width: 60%;         /* margin: auto; */
+		max-height: 67.6px;        /* margin: auto; */
 		margin-right: 50%;
 		padding-top: 3%;
 		padding-left: 2vw;
+	}
+	a.logoheaderlink {
+		height: fit-content;
 	}
 
 	.logofooter {
 		width: 60%;
 	}
-
+	section {
+		height: fit-content;
+	}
 	li {
 		display: flex;
 		flex-direction: row;
@@ -107,6 +117,5 @@ section {
 		gap: 5vw;
 		margin-left: 10%;
 	}
-
 
 }

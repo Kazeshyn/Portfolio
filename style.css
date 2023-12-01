@@ -260,6 +260,7 @@ div.gridportfolio {
 		display: flex;
 		flex-direction: row;
 		gap: 50vw;
+		height: 67.6px;
 	}
 
 	.endflexgap {
@@ -268,6 +269,7 @@ div.gridportfolio {
 
 	.logoheader {
 		width: 60%;         /* margin: auto; */
+		max-height: 67.6px;        /* margin: auto; */
 		margin-right: 50%;
 		padding-top: 3%;
 		padding-left: 2vw;
