@@ -17,6 +17,8 @@ nav {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+	height: 67.6px;
+
 }
 
 nav a {
@@ -56,7 +58,13 @@ a {
     text-decoration: none;
 }
 section {
-    height: 100vh;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	place-items: center;
+    height: fit-content;
 }
 
 /* images */
@@ -76,6 +84,51 @@ section {
 .gapfooter {
 	margin-top: 10px;
 }
+.imgapropos {
+	width: 30%;
+}
+.w1 {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	/* margin-left: 20%; */
+}
+.w2 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.apropos {
+	width: 22%;
+}
+.account {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 2px;
+	place-items: center;
+	margin-right: 35%;
+}
+p {
+	font-family: 'Kanit', sans-serif;
+	font-size: 0.3em;
+}
+.picto {
+	width: 50%;
+}
+
+@media only screen and (min-width:500px) {
+	p {
+		font-family: 'Kanit', sans-serif;
+		font-size: 0.7em;
+	}
+}
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width:1224px) {
@@ -93,7 +146,7 @@ section {
 	}
 
 	.logoheader {
-		width: 60%;         /* margin: auto; */
+		width: 60%;
 		max-height: 67.6px;        /* margin: auto; */
 		margin-right: 50%;
 		padding-top: 3%;
@@ -106,6 +159,10 @@ section {
 	.logofooter {
 		width: 60%;
 	}
+	.account {
+		grid-column-gap: 20px;
+		grid-row-gap: 20px;
+	}
 	section {
 		height: fit-content;
 	}
@@ -117,5 +174,11 @@ section {
 		gap: 5vw;
 		margin-left: 10%;
 	}
-
+	p {
+		font-family: 'Kanit', sans-serif;
+		font-size: 1em;
+	}
+	.picto {
+		width: auto;
+	}
 }
