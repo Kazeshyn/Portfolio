@@ -58,12 +58,6 @@ a {
     text-decoration: none;
 }
 section {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: 1fr;
-	grid-column-gap: 0px;
-	grid-row-gap: 0px;
-	place-items: center;
     height: 61vh;
 }
 
@@ -77,7 +71,7 @@ section {
 
 .logofooter {
 	width: 60%;
-	margin-left: 20%;
+    margin-left: 20%;
 }
 .endflexgap {
 	margin-bottom: 20px;
@@ -85,50 +79,13 @@ section {
 .gapfooter {
 	margin-top: 10px;
 }
-.imgapropos {
-	width: 30%;
-}
-.w1 {
-	display: flex;
-	width: 100%;
-	justify-content: center;
-	margin-top: 5%;
-	margin-bottom: 5%;
-	/* margin-left: 20%; */
-}
-.w2 {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	margin-top: 5%;
-	margin-bottom: 5%;
-}
-.apropos {
-	width: 22%;
-}
-.account {
-	width: 100%;
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: repeat(4, 1fr);
-	grid-column-gap: 0px;
-	grid-row-gap: 2px;
-	place-items: center;
-	margin-right: 35%;
-}
-p {
-	font-family: 'Kanit', sans-serif;
-	font-size: 0.3em;
-}
-.picto {
-	width: 50%;
-}
 
-@media only screen and (min-width:600px) {
-	p {
-		font-family: 'Kanit', sans-serif;
-		font-size: 0.7em;
-	}
+.plan {
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Desktops and laptops ----------- */
@@ -159,18 +116,15 @@ p {
 		display: flex;
 		align-items: center;
 		height: 100%;
-		width: fit-content;
 	}
 
 	.logofooter {
 		width: 60%;
 	}
-	.account {
-		grid-column-gap: 20px;
-		grid-row-gap: 20px;
-	}
+
 	section {
-		height: fit-content;
+        height: 92vh;
+        
 	}
 	li {
 		display: flex;
@@ -180,11 +134,5 @@ p {
 		gap: 5vw;
 		margin-left: 10%;
 	}
-	p {
-		font-family: 'Kanit', sans-serif;
-		font-size: 1em;
-	}
-	.picto {
-		width: auto;
-	}
+
 }
