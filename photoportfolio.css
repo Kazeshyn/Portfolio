@@ -22,7 +22,7 @@ nav {
 }
 
 main {
-	height: 400vh;
+	height: 1600vh;
 }
 
 nav a {
@@ -64,7 +64,7 @@ a {
 }
 
 section {
-	height: 61vh;
+	height: fit-content;
 }
 
 /* -- */
@@ -309,7 +309,7 @@ section {
 		max-height: 67.6px;         /* margin: auto; */
 		margin-right: 50%;         /* padding-top: 0%; */
 		padding-left: 2vw;         /* margin-bottom: 0;
-						margin-top: 0; */
+								margin-top: 0; */
 	}
 
 	a.logoheaderlink {
@@ -323,7 +323,7 @@ section {
 	}
 
 	section {
-		height: 92vh;
+		height: fit-content;
 	}
 
 	li {
@@ -333,6 +333,10 @@ section {
 		padding-right: 5vw;
 		gap: 5vw;
 		margin-left: 10%;
+	}
+
+	main {
+		height: 400vh;
 	}
 
 }
