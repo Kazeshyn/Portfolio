@@ -325,6 +325,7 @@ img.pimg {
 	color: black;
 	font-family: 'Kanit', sans-serif;
 	font-size: 1.4vw;
+}
 
 	/* Desktops and laptops ----------- */
 	@media only screen and (min-width:1224px) {
@@ -369,5 +370,3 @@ img.pimg {
 		}
 
 	}
-
-}
