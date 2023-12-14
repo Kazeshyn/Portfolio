@@ -66,6 +66,11 @@ a {
 section {
 	height: fit-content;
 }
+.titleh {
+	display: flex;
+	width: 70%;
+	margin: auto;
+}
 
 /* -- */
 .hello {
@@ -337,6 +342,11 @@ section {
 
 	main {
 		height: 400vh;
+	}
+	.titleh {
+		display: flex;
+		width: 50%;
+		margin: auto;
 	}
 
 }

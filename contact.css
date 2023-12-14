@@ -84,7 +84,7 @@ p {
 
 .logofooter {
 	width: 60%;
-	/* margin-left: 5%; */
+	margin-left: 20%;
 }
 
 .endflexgap {
@@ -199,7 +199,7 @@ p {
 	}
 
 	.picto {
-		width: auto;
+		width: 20%;
 	}
 
 }
