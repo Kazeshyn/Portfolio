@@ -6,12 +6,14 @@ html, body {
 	margin: 0;
 	height: 100%;
 }
+
 body {
 	display: flex;
 	flex-direction: column;
 }
+
 .scroll {
-    display: none;
+	display: none;
 }
 
 nav {
@@ -58,7 +60,7 @@ footer a {
 }
 
 section {
-	height: fit-content;     /* margin-top: 5%; */
+	height: fit-content;
 	margin-bottom: 15%;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -82,8 +84,7 @@ p {
 
 iframe {
 	margin-left: 10%;
-	height: 40%;     /* Modifiez la hauteur selon vos besoins
-	}*/
+	height: 40%;
 }
 
 section.fourth-section {
@@ -246,7 +247,7 @@ div.gridportfolio {
 	text-decoration: none;
 	color: black;
 	font-family: 'Kanit', sans-serif;
-	font-size: 1.4vw;     /* Ajustez la taille de la police selon vos besoins */
+	font-size: 1.4vw;
 }
 
 .gapfooter {
@@ -268,8 +269,8 @@ div.gridportfolio {
 	}
 
 	.logoheader {
-		width: 60%;         /* margin: auto; */
-		max-height: 67.6px;        /* margin: auto; */
+		width: 60%;
+		max-height: 67.6px;
 		margin-right: 50%;
 		padding-top: 3%;
 		padding-left: 2vw;
@@ -294,8 +295,7 @@ div.gridportfolio {
 
 	iframe {
 		margin-left: 10%;
-		height: 40vh;         /* Modifiez la hauteur selon vos besoins
-		}*/
+		height: 40vh;
 	}
 
 	.accueilimg {
@@ -308,34 +308,38 @@ div.gridportfolio {
 	section.first-section {
 		height: 92vh;
 	}
-    .scroll{
+
+	.scroll {
 		display: block;
-        left: 50%;
-        transform: translateY(0%) rotate(45deg);
-        
-                      opacity: 0;
-      }
-      @keyframes scrolldown {
-                  0%{
-                      transform: translateY(20%) rotate(45deg);
-                      opacity: 0.7;
-                  }
-                  50%{
-                      transform: translateY(0%) rotate(45deg);
-                      opacity: 0.2;
-                  }
-                  100%{
-                      transform: translateY(20%) rotate(45deg);
-                      opacity: 0.7;
-                  }
-              }
+		left: 50%;
+		transform: translateY(0%) rotate(45deg);
+		opacity: 0;
+	}
+
+	@keyframes scrolldown {
+		0% {
+			transform: translateY(20%) rotate(45deg);
+			opacity: 0.7;
+		}
+
+		50% {
+			transform: translateY(0%) rotate(45deg);
+			opacity: 0.2;
+		}
+
+		100% {
+			transform: translateY(20%) rotate(45deg);
+			opacity: 0.7;
+		}
+
+	}
+
 }
 
 @media only screen and (min-width:690px) and (max-width:1224px) {
 	iframe {
 		margin-left: 10%;
-		height: 30vh;         /* Modifiez la hauteur selon vos besoins
-		        }*/
+		height: 30vh;
 	}
 
 }

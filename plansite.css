@@ -6,10 +6,12 @@ html, body {
 	margin: 0;
 	height: 100%;
 }
+
 body {
 	display: flex;
 	flex-direction: column;
 }
+
 nav {
 	background-color: black;
 	display: flex;
@@ -17,8 +19,6 @@ nav {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	/* height: 67.6px; */
-
 }
 
 nav a {
@@ -54,11 +54,13 @@ footer a {
 	font-family: 'Kanit', sans-serif;
 	color: white;
 }
+
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
+
 section {
-    height: 61vh;
+	height: 61vh;
 }
 
 /* images */
@@ -71,21 +73,23 @@ section {
 
 .logofooter {
 	width: 60%;
-    margin-left: 20%;
+	margin-left: 20%;
 }
+
 .endflexgap {
 	margin-bottom: 20px;
 }
+
 .gapfooter {
 	margin-top: 10px;
 }
 
 .plan {
-    font-family: 'Kanit', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+	font-family: 'Kanit', sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 /* Desktops and laptops ----------- */
@@ -105,13 +109,11 @@ section {
 
 	.logoheader {
 		width: 60%;
-		max-height: 67.6px;        /* margin: auto; */
+		max-height: 67.6px;
 		margin-right: 50%;
-		/* padding-top: 0%; */
 		padding-left: 2vw;
-		/* margin-bottom: 0;
-		margin-top: 0; */
 	}
+
 	a.logoheaderlink {
 		display: flex;
 		align-items: center;
@@ -123,9 +125,9 @@ section {
 	}
 
 	section {
-        height: 92vh;
-        
+		height: 92vh;
 	}
+
 	li {
 		display: flex;
 		flex-direction: row;

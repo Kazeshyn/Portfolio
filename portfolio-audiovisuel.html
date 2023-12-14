@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Liens et Plugins -->
+    <link rel="stylesheet" href="./portfolio-audiovisuel.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+    <title>Merouane Idriss - Photographie</title>
+</head>
+
+<body>
+    <nav>
+        <a href="./index.html" class="logoheaderlink"><img src="./images/logo-header.png"
+                alt="Logo, retour à l'accueil (page actuelle)." class="logoheader"></a>
+        <ul>
+            <li>
+                <a href="./portfolio-index.html">Portfolio</a>
+                <a href="./contact.html" class="endflexgap">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div class="content">
+            <img src="./images/AUDIOVISUEL.png" alt="" class="titleh">
+            <!-- <div class="section-header-underline"></div> -->
+            <div class="video-gallery">
+              <div class="gallery-item">
+                <img src="https://i.pinimg.com/originals/75/f9/97/75f997ee6acf59dc51bbea05eae36677.jpg" alt="North Cascades National Park" />
+                <div class="gallery-item-caption">
+                  <div>
+                    <h2>North Cascades</h2>
+                    <p>The mountains are calling</p>
+                  </div>
+                  <a class="vimeo-popup" href="https://vimeo.com/3653567"></a>
+                </div>
+              </div>
+          
+              <div class="gallery-item ">
+                <img src="https://cdn.davemorrowphotography.com/wp-content/uploads/2016/08/Mount-Rainier-Star-Photography-Workshops-and-Tours-Header-900x394.jpg" alt="Mt. Rainier" />
+                <div class="gallery-item-caption">
+                  <div>
+                    <h2>Mt. Rainier</h2>
+                    <p>14410 feet of adventure</p>
+                  </div>
+                  <a class="vimeo-popup" href="https://vimeo.com/179049611"></a>
+                </div>
+              </div>
+          
+              <div class="gallery-item">
+                <img src="https://wqtcq1f34a8kduuv3sc0e76o-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/12394537_web1_180620-pdn-goat-web.jpg" alt="Olympic National Park" />
+                <div class="gallery-item-caption">
+                  <div>
+                    <h2>Olympic National Park</h2>
+                    <p>Mountains, rain forests, wild coastlines</p>
+                  </div>
+                  <a class="vimeo-popup" href="https://vimeo.com/108785446"></a>
+                </div>
+              </div>
+          
+              <div class="gallery-item">
+                <img src="https://www.sciencenewsforstudents.org/sites/default/files/main/articles/cvob0070_openerfree.jpg" alt="Mount St. Helens" />
+                <div class="gallery-item-caption">
+                  <div>
+                    <h2>Mount St. Helens</h2>
+                    <p>The one and only</p>
+                  </div>
+                  <a class="vimeo-popup" href="https://vimeo.com/171540296"></a>
+                </div>
+              </div>
+            </div>
+        </div>
+    </main>
+    <div class="divbutton">
+            <a href="./portfolio-index.html" class="textbutton">< Retour </a>
+        </div>
+    <footer>
+        <a href="./plansite.html" class="gapfooter">Plan du site</a>
+        <a href="">Mentions légales</a>
+        <a href="">Contact</a>
+        <a href="./index.html" class="logoheaderlink"><img src="./images/logo-header.png"
+                alt="Logo, retour à l'accueil (page actuelle)." class="logofooter"></a>
+    </footer>
+</body>
+<script>
+    $(document).ready(function() {
+  $('.video-gallery').magnificPopup({
+  delegate: 'a', 
+  type: 'iframe',
+  gallery:{
+    enabled:true
+  }
+});
+});
+</script>
+</html>

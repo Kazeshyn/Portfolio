@@ -6,19 +6,19 @@ html, body {
 	margin: 0;
 	height: 100%;
 }
+
 body {
 	display: flex;
 	flex-direction: column;
 }
+
 nav {
 	background-color: black;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	text-align: center;
-	/* height: 67.6px; */
-
+	text-align: center;     /* height: 67.6px; */
 }
 
 nav a {
@@ -54,9 +54,11 @@ footer a {
 	font-family: 'Kanit', sans-serif;
 	color: white;
 }
+
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
+
 section {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -64,7 +66,12 @@ section {
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
 	place-items: center;
-    height: 61vh;
+	height: 61vh;
+}
+
+p {
+	font-family: 'Kanit', sans-serif;
+	font-size: 0.3em;
 }
 
 /* images */
@@ -79,23 +86,27 @@ section {
 	width: 60%;
 	margin-left: 20%;
 }
+
 .endflexgap {
 	margin-bottom: 20px;
 }
+
 .gapfooter {
 	margin-top: 10px;
 }
+
 .imgapropos {
 	width: 30%;
 }
+
 .w1 {
 	display: flex;
 	width: 100%;
 	justify-content: center;
 	margin-top: 5%;
-	margin-bottom: 5%;
-	/* margin-left: 20%; */
+	margin-bottom: 5%;     /* margin-left: 20%; */
 }
+
 .w2 {
 	width: 100%;
 	display: flex;
@@ -103,9 +114,11 @@ section {
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
+
 .apropos {
 	width: 22%;
 }
+
 .account {
 	width: 100%;
 	display: grid;
@@ -116,10 +129,7 @@ section {
 	place-items: center;
 	margin-right: 35%;
 }
-p {
-	font-family: 'Kanit', sans-serif;
-	font-size: 0.3em;
-}
+
 .picto {
 	width: 50%;
 }
@@ -129,6 +139,7 @@ p {
 		font-family: 'Kanit', sans-serif;
 		font-size: 0.7em;
 	}
+
 }
 
 /* Desktops and laptops ----------- */
@@ -148,13 +159,11 @@ p {
 
 	.logoheader {
 		width: 60%;
-		max-height: 67.6px;        /* margin: auto; */
+		max-height: 67.6px;
 		margin-right: 50%;
-		/* padding-top: 0%; */
 		padding-left: 2vw;
-		/* margin-bottom: 0;
-		margin-top: 0; */
 	}
+
 	a.logoheaderlink {
 		display: flex;
 		align-items: center;
@@ -165,13 +174,16 @@ p {
 	.logofooter {
 		width: 60%;
 	}
+
 	.account {
 		grid-column-gap: 20px;
 		grid-row-gap: 20px;
 	}
+
 	section {
 		height: fit-content;
 	}
+
 	li {
 		display: flex;
 		flex-direction: row;
@@ -180,11 +192,14 @@ p {
 		gap: 5vw;
 		margin-left: 10%;
 	}
+
 	p {
 		font-family: 'Kanit', sans-serif;
 		font-size: 1em;
 	}
+
 	.picto {
 		width: auto;
 	}
+
 }
