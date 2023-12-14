@@ -79,7 +79,7 @@ section {
 	align-items: center;
 	height: fit-content;
 	background-color: #F5F5F5;
-	font-family: Roboto;
+	font-family: 'Kanit', sans-serif;
 }
 
 h1 {
@@ -89,7 +89,7 @@ h1 {
 }
 
 .titleh {
-	width: 50%;
+	width: 80%;
 }
 
 .divbutton {
@@ -327,46 +327,50 @@ img.pimg {
 	font-size: 1.4vw;
 }
 
-	/* Desktops and laptops ----------- */
-	@media only screen and (min-width:1224px) {
-		nav {
-			background-color: black;
-			display: flex;
-			flex-direction: row;
-			gap: 50vw;
-			height: 67.6px;
-			align-items: center;
-		}
-
-		.endflexgap {
-			margin-bottom: 0;
-		}
-
-		.logoheader {
-			width: 60%;
-			max-height: 67.6px;
-			margin-right: 50%;
-			padding-left: 2vw;
-			margin-top: 0;
-		}
-
-		a.logoheaderlink {
-			display: flex;
-			align-items: center;
-			height: 100%;
-		}
-
-		.logofooter {
-			width: 60%;
-		}
-
-		li {
-			display: flex;
-			flex-direction: row;
-			padding-left: 4vw;
-			padding-right: 5vw;
-			gap: 5vw;
-			margin-left: 10%;
-		}
-
+/* Desktops and laptops ----------- */
+@media only screen and (min-width:1224px) {
+	nav {
+		background-color: black;
+		display: flex;
+		flex-direction: row;
+		gap: 50vw;
+		height: 67.6px;
+		align-items: center;
 	}
+
+	.endflexgap {
+		margin-bottom: 0;
+	}
+
+	.logoheader {
+		width: 60%;
+		max-height: 67.6px;
+		margin-right: 50%;
+		padding-left: 2vw;
+		margin-top: 0;
+	}
+
+	a.logoheaderlink {
+		display: flex;
+		align-items: center;
+		height: 100%;
+	}
+
+	.logofooter {
+		width: 60%;
+	}
+
+	li {
+		display: flex;
+		flex-direction: row;
+		padding-left: 4vw;
+		padding-right: 5vw;
+		gap: 5vw;
+		margin-left: 10%;
+	}
+
+	.titleh {
+		width: 50%;
+	}
+
+}

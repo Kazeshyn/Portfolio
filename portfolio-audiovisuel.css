@@ -65,7 +65,7 @@ a {
 
 /* -- */
 body {
-	font-family: 'Overpass', sans-serif;
+	font-family: 'Kanit', sans-serif;
 }
 
 .section-header {
@@ -138,12 +138,13 @@ body {
 
 .video-gallery .gallery-item h2, .video-gallery .gallery-item p {
 	position: relative;
+	font-size: 100%;
 	margin: 0;
 	z-index: 10;
 }
 
 .video-gallery .gallery-item p {
-	letter-spacing: 1px;
+	letter-spacing: 0.5px;
 	font-size: 68%;
 	padding: 1em 0;
 	opacity: 0;
@@ -186,7 +187,7 @@ body {
 		display: inline-block;
 		float: none;
 		margin: 10px auto;
-		width: 100%;
+		width: 60%;
 	}
 
 }
@@ -234,7 +235,7 @@ body {
 
 .titleh {
 	display: flex;
-	width: 50%;
+	width: 70%;
 	margin: auto;
 }
 
@@ -265,6 +266,11 @@ body {
 		gap: 50vw;
 		height: 67.6px;
 		align-items: center;
+	}
+	.titleh {
+		display: flex;
+		width: 50%;
+		margin: auto;
 	}
 
 	.endflexgap {
