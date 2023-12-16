@@ -10,14 +10,25 @@ body {
 	display: flex;
 	flex-direction: column;
 }
-div {
+/* div {
+	transform: scale(1);
+	transition: ease-in, 0.5s;
+} */
+a.backimg1:hover,
+a.backimg2:hover,
+a.backimg3:hover,
+a.backimg4:hover {
+	transform: scale(1.025);
+	transition: ease-in, 0.4s;
+}
+a.backimg1,
+a.backimg2,
+a.backimg3,
+a.backimg4 {
 	transform: scale(1);
 	transition: ease-in, 0.3s;
 }
-div:hover {
-	transform: scale(1.025);
-	transition: ease-in, 0.3s;
-}
+
 
 nav {
 	background-color: black;
@@ -84,9 +95,35 @@ section {
 a {
     text-decoration: none;
 }
+a.backimg1 {
+    text-decoration: none;
+	background-image: url(./images/backimg1.jpg);
+	background-position:center;
+	background-size: cover;
+	
+}
+a.backimg2 {
+    text-decoration: none;
+	background-image: url(./images/backimg2.jpg);
+	background-position:center;
+	background-size: cover;
+}
+a.backimg3 {
+    text-decoration: none;
+	background-image: url(./images/backimg3.jpg);
+	background-position:center;
+	background-size: cover;
+}
+a.backimg4 {
+    text-decoration: none;
+	background-image: url(./images/backimg4.jpg);
+	background-position:center;
+	background-size: cover;
+}
 div {
     display: flex;
-    background-color: black;
+	background-color: black;
+	opacity: 0.8;
     font-family: 'Kanit', sans-serif;
     width: 100%;
     height: 100%;
