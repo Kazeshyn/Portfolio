@@ -188,7 +188,7 @@ p {
 	}
 
 	section {
-		height: fit-content;
+		height: 100vh;
 	}
 
 	li {
