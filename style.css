@@ -233,10 +233,12 @@ div.gridportfolio {
 	grid-row-gap: 0px;
 	place-items: center;
 }
-
 .divbutton {
 	width: 40%;     /* Ajustez la largeur selon vos besoins */
-	height: fit-content;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 15px;
 	border: black 0.3vw solid;
 	border-radius: 16px;
 	margin-left: 7.5%;
@@ -248,8 +250,9 @@ div.gridportfolio {
 	text-decoration: none;
 	color: black;
 	font-family: 'Kanit', sans-serif;
-	font-size: 1.4vw;
+	font-size: 0.6em;
 }
+
 
 .gapfooter {
 	margin-top: 10px;
@@ -259,6 +262,7 @@ div.gridportfolio {
 @media only screen and (min-width:1224px) {
 	.divbutton {
 		width: 40%;     /* Ajustez la largeur selon vos besoins */
+		height: fit-content;
 		border: black 0.3vw solid;
 		border-radius: 16px;
 		margin-left: 7.5%;
@@ -272,6 +276,7 @@ div.gridportfolio {
 		font-family: 'Kanit', sans-serif;
 		font-size: 1.4vw;
 	}
+	
 	nav {
 		background-color: black;
 		display: flex;

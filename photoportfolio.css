@@ -66,6 +66,7 @@ a {
 section {
 	height: fit-content;
 }
+
 .titleh {
 	display: flex;
 	width: 70%;
@@ -277,12 +278,17 @@ section {
 }
 
 .divbutton {
-	width: 15%;     /* Ajustez la largeur selon vos besoins */
+	width: 40%;         /* Ajustez la largeur selon vos besoins */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 30px;
 	border: black 0.3vw solid;
 	border-radius: 16px;
+	margin-left: 7.5%;
 	float: right;
-	margin-right: 20px;
-	margin-bottom: 10px;
+	margin-right: 2%;
+	margin-bottom: 2%;
 }
 
 .textbutton {
@@ -291,11 +297,30 @@ section {
 	text-decoration: none;
 	color: black;
 	font-family: 'Kanit', sans-serif;
-	font-size: 1.4vw;     /* Ajustez la taille de la police selon vos besoins */
+	font-size: 0.8em;
 }
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width:1224px) {
+	.divbutton {
+		float: right;
+		width: 20%;     /* Ajustez la largeur selon vos besoins */
+		height: fit-content;
+		border: black 0.3vw solid;
+		border-radius: 16px;
+		margin-left: 7.5%;
+		margin-right: 2%;
+		margin-bottom: 2%;
+	}
+	
+	.textbutton {
+		display: flex;
+		justify-content: center;
+		text-decoration: none;
+		color: black;
+		font-family: 'Kanit', sans-serif;
+		font-size: 1.4vw;
+	}
 	nav {
 		background-color: black;
 		display: flex;
@@ -314,7 +339,7 @@ section {
 		max-height: 67.6px;         /* margin: auto; */
 		margin-right: 50%;         /* padding-top: 0%; */
 		padding-left: 2vw;         /* margin-bottom: 0;
-								margin-top: 0; */
+										margin-top: 0; */
 	}
 
 	a.logoheaderlink {
@@ -343,6 +368,7 @@ section {
 	main {
 		height: 400vh;
 	}
+
 	.titleh {
 		display: flex;
 		width: 50%;
