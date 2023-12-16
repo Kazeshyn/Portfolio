@@ -63,7 +63,7 @@ section {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 1fr;
-	grid-column-gap: 0px;
+	grid-column-gap: 20px;
 	grid-row-gap: 0px;
 	place-items: center;
 	height: 61vh;
@@ -71,7 +71,7 @@ section {
 
 p {
 	font-family: 'Kanit', sans-serif;
-	font-size: 0.3em;
+	font-size: 0.7em;
 }
 
 /* images */
@@ -84,7 +84,7 @@ p {
 
 .logofooter {
 	width: 60%;
-	margin-left: 20%;
+	margin-left: 0;
 }
 
 .endflexgap {
@@ -124,14 +124,20 @@ p {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(4, 1fr);
-	grid-column-gap: 0px;
+	grid-column-gap: 10px;
 	grid-row-gap: 2px;
 	place-items: center;
 	margin-right: 35%;
 }
 
 .picto {
-	width: 50%;
+	height: 25px;
+	width: auto;
+}
+#insta,
+#twitter,
+#linkedin {
+	cursor: pointer;
 }
 
 @media only screen and (min-width:600px) {
@@ -173,6 +179,7 @@ p {
 
 	.logofooter {
 		width: 60%;
+		margin-left: 20%;
 	}
 
 	.account {
@@ -200,6 +207,7 @@ p {
 
 	.picto {
 		width: 20%;
+		height: auto;
 	}
 
 }

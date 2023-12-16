@@ -32,15 +32,15 @@
             </div>
             <div class="w2">
                 <div class="account">
-                    <img src="./images/Logo-Instagram-noir-1 1.png" alt="" class="picto">
+                    <img src="./images/Logo-Instagram-noir-1 1.png" alt="" class="picto" id="insta">
                     <p>Idriss.merouane</p>
-                    <img src="./images/linkedin 1.png" alt="" class="picto">
+                    <img src="./images/linkedin 1.png" alt="" class="picto" id="linkedin">
                     <p>Idriss Merouane</p>
-                    <img src="./images/twitter 1.png" alt="" class="picto">
+                    <img src="./images/twitter 1.png" alt="" class="picto" id="twitter">
                     <p>@IdrissMPro</p>
-                    <img src="./images/tel 1.png" alt="" class="picto">
+                    <img src="./images/tel 1.png" alt="" class="picto" id="tel">
                     <p>+33 7 66 49 19 83</p>
-                    <img src="./images/mail 1.png" alt="" class="picto">
+                    <img src="./images/mail 1.png" alt="" class="picto" id="mail">
                     <p>idrissmerouane.pro@gmail.com</p>
                 </div>
             </div>
@@ -54,5 +54,23 @@
                 alt="Logo, retour à l'accueil (page actuelle)." class="logofooter"></a>
     </footer>
 </body>
+<script>
+    const instagram = document.querySelector("#insta");
+    const linkedin = document.querySelector("#linkedin");
+    const twitter = document.querySelector("#twitter");
+    instagram.onclick = redirectionInsta
+    twitter.onclick = redirectionTwitter
+    linkedin.onclick = redirectionLinkedin
 
+    function redirectionInsta () {
+        window.open("https://www.instagram.com/idriss.merouane/");
+    }
+    function redirectionTwitter () {
+        window.open("https://twitter.com/IdrissMPro");
+    }
+    function redirectionLinkedin () {
+        window.open("https://www.linkedin.com/in/idriss-merouane-506665262/");
+    }
+
+</script>
 </html>
