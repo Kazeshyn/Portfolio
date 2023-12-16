@@ -261,7 +261,7 @@ section {
 
 .logofooter {
 	width: 60%;
-	margin-left: 20%;
+	/* margin-left: 20%; */
 }
 
 .endflexgap {
@@ -345,6 +345,7 @@ section {
 
 	.logofooter {
 		width: 60%;
+		margin-left: 20%;
 	}
 
 	section {
