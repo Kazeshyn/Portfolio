@@ -1,0 +1,194 @@
+html {
+	scroll-behavior: smooth;
+}
+
+html, body {
+	margin: 0;
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+.scroll {
+	display: none;
+}
+
+nav {
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+nav a {
+	text-decoration: none;
+	font-family: 'Kanit', sans-serif;
+	color: white;
+}
+
+li {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5vw;
+}
+
+ul {
+	padding: 0;
+}
+
+footer {
+	background-color: black;
+	display: flex;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	gap: 10px;
+}
+
+footer a {
+	text-decoration: none;
+	font-family: 'Kanit', sans-serif;
+	color: white;
+}
+
+section {
+	height: 130vh;
+    width: 80%;
+    margin: auto;
+}
+
+.apropos {
+	width: 100%;
+}
+
+.imgapropos {
+	width: 100%;
+}
+
+p {
+	font-family: 'Kanit', sans-serif;
+}
+
+.endflexgap {
+	margin-bottom: 20px;
+}
+
+/* images */
+.logoheader {
+	width: 60%;
+	margin: auto;
+	padding-top: 3%;
+}
+
+.logofooter {
+	width: 60%;
+}
+
+.h1img {
+	display: flex;
+	width: 85%;
+	max-width: 100%;
+	margin: auto;
+}
+
+.accueilimg {
+	height: auto;
+	max-width: 100%;
+	margin-right: 31.5%;
+}
+
+.apropos {
+	width: 40%;
+}
+
+.imgapropos {
+	width: 40%;
+	margin-bottom: 23%;
+}
+
+.cvimage {
+	width: 60%;
+	margin-left: 20%;
+}
+
+p {
+	font-size: 0.7em;
+	text-align: justify;
+	margin-right: 8%;
+	margin-left: 8%;
+}
+
+.third-section p {
+	margin-top: 32%;
+}
+
+.imageportfolio {
+	display: flex;
+	width: 30%;
+	margin: auto;
+	margin-bottom: 5%;
+}
+.gapfooter {
+	margin-top: 10px;
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width:1224px) {
+	nav {
+		background-color: black;
+		display: flex;
+		flex-direction: row;
+		gap: 50vw;
+		height: 67.6px;
+	}
+
+	.endflexgap {
+		margin-bottom: 0;
+	}
+
+	.logoheader {
+		width: 60%;
+		max-height: 67.6px;
+		margin-right: 50%;
+		padding-top: 3%;
+		padding-left: 2vw;
+	}
+
+	.logofooter {
+		width: 60%;
+	}
+
+	li {
+		display: flex;
+		flex-direction: row;
+		padding-left: 4vw;
+		padding-right: 5vw;
+		gap: 5vw;
+		margin-left: 10%;
+	}
+
+	section {
+		height: 250vh;
+	}
+	.accueilimg {
+		object-fit: cover;
+		height: 100%;
+		max-width: 100%;
+		margin-right: 31.5%;
+	}
+	p {
+		font-size: 1.7vw;
+		text-align: justify;
+		margin-right: 8%;
+		margin-left: 8%;
+	}
+
+}
