@@ -203,7 +203,7 @@ img.pimg {
 	background-color: #F5F5F5;
 	margin: 5% auto;
 	box-sizing: border-box;
-	width: 700px;
+	width: 300px;
 	/* max-height: 714px; */
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
@@ -352,6 +352,14 @@ img.pimg {
 		color: black;
 		font-family: 'Kanit', sans-serif;
 		font-size: 1.4vw;
+	}
+	.modal-content {
+		background-color: #F5F5F5;
+		margin: 5% auto;
+		box-sizing: border-box;
+		width: 500px;
+		/* max-height: 714px; */
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 	}
 	nav {
 		background-color: black;
